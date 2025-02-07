@@ -1,0 +1,53 @@
+.container {
+  padding: 20px;
+}
+
+.orders {
+  display: flex;
+  flex-direction: column;
+}
+
+.order {
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.order-date {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.order-dishes {
+  display: flex;
+  flex-direction: column;
+}
+
+.dish {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.dish image {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+
+.dish text {
+  font-size: 14px;
+}
+
+.empty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  font-size: 16px;
+  color: #999;
+}

@@ -1,0 +1,77 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.functions {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.function {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+.function image {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.orders {
+  margin-top: 20px;
+}
+
+.order {
+  background-color: white;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.order-date {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.order-dishes {
+  display: flex;
+  flex-direction: column;
+}
+
+.dish {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.dish image {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+
+.dish text {
+  font-size: 14px;
+}

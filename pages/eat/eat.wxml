@@ -1,0 +1,32 @@
+<view class="container">
+  <view class="header">
+    <view class="avatar">
+      <image src="/images/black.png" mode="aspectFill"></image>
+      <text>长工</text>
+    </view>
+    <view class="avatar">
+      <image src="/images/black.png" mode="aspectFill"></image>
+      <text>主家</text>
+    </view>
+  </view>
+  <view class="content">
+    <view class="categories">
+      <view class="category" wx:for="{{categories}}" wx:key="index" bindtap="onCategoryTap" data-index="{{index}}" style="background-color: {{selectedCategory === index ? '#fff' : '#f0f0f0'}}">
+        {{item}}
+      </view>
+    </view>
+    <view class="dishes">
+      <view class="dish" wx:for="{{dishes}}" wx:key="index">
+        <!-- 菜品图片 -->
+        <image class="dish-image" src="{{item.image}}" mode="aspectFill"></image>
+        <!-- 菜品信息 -->
+        <view class="dish-info">
+          <text class="dish-name">{{item.name}}</text>
+          <text class="dish-details">已吃 {{item.times}} 次 - ￥{{item.price}}</text>
+        </view>
+        <!-- 加号按钮 -->
+        <button class="add-button" bindtap="onAddToTable" data-index="{{index}}">+</button>
+      </view>
+    </view>
+  </view>
+</view>

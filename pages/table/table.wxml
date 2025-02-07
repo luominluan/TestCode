@@ -1,0 +1,12 @@
+<view class="container">
+  <view class="header">让我康康，等会桌上有点啥</view>
+  <view class="dishes">
+    <view class="dish" wx:for="{{dishes}}" wx:key="index">
+      <image src="{{item.image}}" mode="aspectFill"></image>
+      <text>{{item.name}} - ￥{{item.price}} x {{item.quantity}}</text>
+      <button bindtap="onDecrease" data-index="{{index}}">-</button>
+      <button bindtap="onIncrease" data-index="{{index}}">+</button>
+    </view>
+  </view>
+  <button bindtap="onSubmit">提交</button>
+</view>

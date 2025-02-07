@@ -1,0 +1,11 @@
+<view class="container">
+  <view class="header">老罗的餐厅</view>
+  <view class="image-container">
+    <image src="/images/black.png" mode="aspectFill"></image>
+  </view>
+  <view class="days-counter">已经在一起吃吃吃{{days}}天</view>
+  <view class="heart-container" bindtap="onTap">
+    <!-- 小心心动画 -->
+    <view class="heart" wx:for="{{hearts}}" wx:key="index" style="top: {{item.top}}px; left: {{item.left}}px;"></view>
+  </view>
+</view>

@@ -1,0 +1,4 @@
+<view class="function" bindtap="onKitchenOrders">
+  <image src="/images/black.png" mode="aspectFill"></image>
+  <text>厨房订单</text>
+</view>

@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/love/love",
+    "pages/eat/eat",
+    "pages/table/table",
+    "pages/mine/mine",
+    "pages/history/history"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/love/love",
+        "text": "爱你哟",
+        "iconPath": "images/love.png",
+        "selectedIconPath": "images/love_active.png"
+      },
+      {
+        "pagePath": "pages/eat/eat",
+        "text": "吃点啥",
+        "iconPath": "images/eat.png",
+        "selectedIconPath": "images/eat_active.png"
+      },
+      {
+        "pagePath": "pages/table/table",
+        "text": "桌上有啥",
+        "iconPath": "images/table.png",
+        "selectedIconPath": "images/table_active.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的也是你的",
+        "iconPath": "images/mine.png",
+        "selectedIconPath": "images/mine_active.png"
+      }
+    ]
+  },
+  "window": {
+    "navigationBarTitleText": "老罗的餐厅"
+  }
+}
